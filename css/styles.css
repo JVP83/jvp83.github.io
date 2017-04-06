@@ -1,0 +1,718 @@
+.navbar{
+border-bottom: 2px solid #2980B9;
+margin-bottom: 0; 
+}
+
+.navbar-default{
+	background :#D0D3D4;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	padding: 5px;
+	line-height: 1.5;
+}
+
+.navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+h1{
+	font-family: Arial;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.top-area h1{
+	font-family: Arial;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: #1d276d;
+}
+
+
+
+h2{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.top-area h2{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #6e2178;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.second-area h2{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #1d276d;
+}
+
+p{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+#para-highlight{
+	font-family: Arial;
+	font-size: 23px;
+	margin-top: 2px;
+	color: #6e2178;
+	font-weight: bold;
+	text-align: center;
+}
+/*#para-highlight2{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 2px;
+	color: #1d276d;
+	font-weight: bold;
+}*/
+.profile p{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	line-height: 1.3;
+}
+
+.profile h3{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 1px;
+	padding-bottom: 50px;
+}
+
+
+#copyright{
+	font-family: Arial;
+	font-size: 12px;
+	padding-top: 5px;
+	color: #2980B9;
+	line-height: 50px;
+    padding: 0;
+}
+.third-content p{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.card p{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+body{
+		line-height: 1.5;
+
+}
+
+
+/*	background-size: cover;
+}*/
+
+.main-content{
+	background:url("../images/wm_top_image.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+.top-area{
+	/*background-color: rgba(255,255,255, 0.5);*/
+	padding: 20px 40px;	
+}
+
+.btn-get-ready {
+	margin-top: 30px;
+	background-color: #1d276d;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 12px;
+	font-size: 18px;
+	display: block;
+	margin: 20px auto 0;
+	float: left;
+}
+
+.btn-get-ready:hover {
+	background-color: #7e3893;
+	color: #ffffff;
+}
+
+.second-content{
+	background-color: #ffffff;
+	padding: 100px;
+}
+
+.second-area{
+	text-align: center;
+
+}
+
+
+.btn-lets-chat {
+	margin-top: 30px;
+	background-color: #2980B9;
+	color: black;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 12px;
+	font-size: 20px;
+	display: block;
+	margin: 20px auto 0;
+	float: center;
+}
+
+.btn-lets-chat:hover {
+	background-color: #7D3C98;
+	color: #ffffff;
+}
+
+
+.btn-know-wm {
+	margin-top: 30px;
+	background-color: #2980B9;
+	color: black;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 12px;
+	font-size: 20px;
+	display: block;
+	margin: 20px auto 0;
+	float: center;
+}
+
+.btn-know-wm:hover {
+	background-color: #7D3C98;
+	color: #ffffff;
+}
+
+
+.third-content{
+	background-color: #1d276d;
+	padding: 80px;
+}
+
+.third-area{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
+
+.third-area h2{
+	margin-bottom: 50px;
+}
+.fourth-content blockquote{
+	width: 70%;
+	font: arial;
+	font-size: 36px;
+	color: #1d276d;
+	font-style: italic;
+	text-align: left;
+	margin: 0 auto;
+	background:url("../images/quotes.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 80px 0;
+  	float: center;
+  	border-left: 0;
+
+}
+
+@media only screen and (max-width : 768px) {
+	.fourth-content blockquote{
+		width: 100%;
+		line-height: 110%;
+		font-size: 22px;
+		background-size: contain;
+		background-image: none;
+	}
+}	
+
+.fourth-area blockquote span{
+	font-size: 18px;
+  font-weight: bold;
+  display: block;
+  font-style: normal;
+  float: center;
+}
+
+.fourth-area blockquote{
+	float: center;
+
+}
+
+.fith-content{
+	background:url("../images/family.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+
+.fith-area h1{
+	text-align: center;
+
+}
+
+.slide{
+	position: relative;
+}
+
+.slide-content{
+	width:100%;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	text-align: center;
+	color: blue;
+}
+
+.slide-content h1{
+text-align: center;
+
+}
+
+.slick-next{
+	right: 20px;
+	z-index: 1;
+}
+
+.slick-prev{
+	left: 20px;
+	z-index: 1;
+}
+
+
+.profiles{
+	background: #C6C6C6;
+	padding: 10px;
+
+}
+
+.profiles article{
+	background: #ffffff;
+	margin: 10px;
+	padding: 10px;
+}
+
+.cards{
+	overflow: hidden;
+}
+
+figure img{
+	width: 100%;
+}
+
+.card img {
+	max-width: 120px;
+}
+
+.card .profile img {
+	max-width: 100%;
+}
+
+.card article {
+/*    background: #ffffff;
+*/    margin: 10px;
+    padding: 10px;
+}
+
+.profile h3{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 2px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.profile{
+	text-align: center;
+	overflow: hidden;
+}
+
+.about-main-content{
+	background-size: cover;
+	padding: 0px 0;
+	margin: 0px;
+}
+
+.about-top-area{
+	padding: 0px 0px;
+	margin-left: -10px;	
+
+}
+
+.about-second-area{
+	text-align: left;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+@media only screen and (max-width : 768px) {
+	.about-second-area{
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}
+
+.about-second-content h2{
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #1d276d;
+}
+
+.about-second-content{
+	background-color: #ffffff;
+	padding: 50px;
+}
+
+.about-third-content{
+	background:url("../images/WM_About-US_phase2C_05.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 420px 0;
+}
+
+.about-fith-content{
+	background-color: #682178;
+	padding: 100px;
+}
+
+.about-fith-area{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+.about-sixth-content{
+	background-color: #1d276d;
+	padding: 100px;
+}
+
+.about-sixth-area{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.about-seventh-content{
+	background:url("../images/greg.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+.about-seventh-area{
+	background-color: rgba(255,255,255, 0.5);
+	padding: 80px 40px;	
+}
+
+.about-seventh-area p{
+	font-family: Arial;
+	font-size: 13px;
+	margin-top: 2px;
+	color: black;
+	text-align: left;
+}
+
+/*<======================! CONTACT CSS ==================>
+*/
+.contact-form{
+	margin-top: 15px;
+}
+
+.contact-main-content{
+	background-size: cover;
+	padding: 0px 0;
+	margin: 0px;
+}
+/*.contact-main-content{
+	background:url("../images/about_us.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 100px 0;
+}*/
+
+.col-cont{
+margin-top: 15px;
+margin-bottom: 15px;
+overflow: hidden;
+
+}
+
+.contact-details img{
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+
+.contact-details{
+	border: 1px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.contact-details p{
+	font-family: Arial;
+	font-size: 14px;
+}
+.contact-details h4{
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.contact-details h1{
+	font-family: Arial;
+	font-size: 14px;
+	font-style: bold;
+}
+
+.contact-details h2{
+	font-family: Arial;
+	font-size: 14px;
+	text-decoration: bold;
+}
+
+
+.contact-middle form{
+	background-color: #1d276d;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.form-group{
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+form h2{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 20px;
+	color: white;
+}
+
+.btn .btn-contact {
+	float: center;
+}
+
+.btn-contact {
+/*	margin-top: 30px;
+*/	background-color: #7e3893;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 15px;
+	display: block;
+	margin: 10px auto;
+	margin-bottom: 10px;
+}
+
+.btn-contact:hover {
+	background-color: #1d276d;
+	color: #ffffff;
+}
+
+
+.head-office-area p{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+
+.head-office-area h1{
+	font-family: Arial;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.head-office-area h2{
+	font-family: Arial;
+	font-size: 20px;
+	font-style: bold;
+	color: #1d276d;
+}
+
+
+
+.head-office-area h3{
+	font-family: Arial;
+	font-size: 14px;
+	font-style: bold;
+	color: #6e2178;
+}
+
+/*<======================! TEAM CSS ================ == >*/
+
+.team-top
+{
+background-color: #1d276d;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.team-top h3{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #393a3b;
+	text-align: center;
+	font-style: bold;
+}
+.team-top h1{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+
+.team-top h2{
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+
+.team-introsection
+{
+background-color: #6b675f;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.team-introsection h3{
+	font-family: Arial;
+	font-size: 24px;
+	margin-top: 0px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	font-style: bold;
+}
+
+
+
+/*<!-- can delete if I want-->*/
+
+.profiles{
+	background: #6b675f; /*#C6C6C6;*/
+	padding: 10px;
+}
+
+.profiles article{
+	background: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.cards{
+	overflow: hidden;
+}
+
+figure img{
+	width: 100%;
+}
+
+.card2 img {
+	max-width: 100%;
+}
+.card2 article {
+    background: #a2a2a3;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.profile h1{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #1d276d;
+	text-align: center;
+	font-style: bold;
+}
+
+.profile h2{
+	font-family: Arial;
+	font-size: 15px;
+	margin-top: 0px;
+	color: #6b675f;
+	text-align: center;
+	font-style: bold;
+}
+
+
+
+.btn-profile {
+/*	margin-top: 30px;
+*/	background-color: #7e3893;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.btn-profile:hover {
+	background-color: #1d276d;
+	color: #fff;
+}
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0,0,0,0.2);
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.btn-linkedin:hover {
+	background-color: #1d276d;
+	color: #fff;
+}
+
+.fa-linkedin{
+	font-size: 17px;
+}
+
+footer img{
+	margin-top: 7px;
+}
+
+.btn-wrap {
+	display: inline-block;
+	margin: 0 auto;
+	overflow: hidden;
+    
+}
