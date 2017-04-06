@@ -52,6 +52,28 @@ h3{
 	margin-top: 0px;
 	font-weight: bold;
 }
+.slide{
+	text-align: left;
+}
+
+.slide-content h1{
+	font-family: Arial;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: #1d276d;
+	text-align: left;
+}
+
+.slide-content h2{
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #6e2178;
+	text-align: left;
+}
+
+
 
 .second-area h2{
 	font-family: Arial;
@@ -133,8 +155,9 @@ body{
 }
 
 .top-area{
-	/*background-color: rgba(255,255,255, 0.5);*/
-	padding: 20px 40px;	
+    padding: 20px 40px;
+    width: 80%;
+    margin: 0 auto;	
 }
 
 .btn-get-ready {
@@ -277,16 +300,13 @@ body{
 .slide-content{
 	width:100%;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 0;
-	text-align: center;
+	text-align: left;
 	color: blue;
 }
 
-.slide-content h1{
-text-align: center;
 
-}
 
 .slick-next{
 	right: 20px;
@@ -648,12 +668,13 @@ figure img{
     margin: 10px;
     padding: 10px;
     padding-bottom: 5px;
+    min-height: 300px;
 }
 
 .profile h1{
 	font-family: Arial;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 21px;
 	font-weight: bold;
 	color: #1d276d;
 	text-align: center;
@@ -687,6 +708,25 @@ figure img{
 	background-color: #1d276d;
 	color: #fff;
 }
+
+.btn-primary btn-lg {
+/*	margin-top: 30px;
+*/	background-color: #7e3893;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.btn-primary btn-lg:hover {
+	background-color: #1d276d;
+	color: #fff;
+}
+
+
 
 .btn-linkedin {
     color: #fff;
