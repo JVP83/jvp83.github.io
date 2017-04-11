@@ -756,3 +756,16 @@ footer img{
 	overflow: hidden;
     
 }
+
+.pax{
+	background: transparent;
+	 min-height: 700px;
+    
+}
+
+.pax-1, .pax-3, .pax-4, .pax-5{
+background: transparent;
+}
+/*.pax-1, .pax-3, .pax-4{
+background: transparent;
+}*/
