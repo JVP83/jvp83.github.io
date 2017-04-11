@@ -30,7 +30,12 @@ h1{
 	font-weight: bold;
 	color: #1d276d;
 }
-
+@media only screen and (max-width : 768px) {
+	.top-area h1 {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+}
 
 
 h2{
@@ -45,6 +50,28 @@ h2{
 	font-weight: bold;
 	color: #6e2178;
 }
+
+@media only screen and (max-width : 768px) {
+	.top-area h2 {
+		font-size: 13px;
+		margin: 0;
+	}
+}
+
+.top-area h3{
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+	color: #1d276d;
+}
+
+@media only screen and (max-width : 768px) {
+	.top-area h3 {
+		display: none;
+	}
+}
+
 
 h3{
 	font-family: Arial;
@@ -73,7 +100,12 @@ h3{
 	text-align: left;
 }
 
-
+@media only screen and (max-width : 768px) {
+	.slide-content h2 {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+}
 
 .second-area h2{
 	font-family: Arial;
@@ -160,6 +192,12 @@ body{
     margin: 0 auto;	
 }
 
+@media only screen and (max-width : 768px) {
+	.top-area {
+		padding-top: 2px;
+	}
+}
+
 .btn-get-ready {
 	margin-top: 30px;
 	background-color: #1d276d;
@@ -178,9 +216,31 @@ body{
 	color: #ffffff;
 }
 
+
+@media only screen and (max-width : 768px) {
+	.btn-get-ready {
+		background-color: #1d276d;
+		color: #ffffff;
+		border-radius: 5px;
+		font-family: Arial;
+		padding: 5px 10px;
+		font-size: 10px;
+		display: block;
+		margin: 10px auto 0;
+	
+	}
+}
+
+
 .second-content{
 	background-color: #ffffff;
 	padding: 100px;
+}
+
+@media only screen and (max-width : 768px) {
+	.second-content{
+		padding: 10px;
+	}
 }
 
 .second-area{
@@ -306,6 +366,13 @@ body{
 	color: blue;
 }
 
+@media only screen and (max-width : 768px) {
+	.slide-content h1 {
+		font-size: 16px;
+		margin-bottom: 2px;
+		padding-top: 2px;
+	}
+}
 
 
 .slick-next{
@@ -407,6 +474,12 @@ figure img{
 	padding: 50px;
 }
 
+@media only screen and (max-width : 768px) {
+	.about-second-content{
+		padding: 10px;
+	}
+}
+
 .about-third-content{
 	background:url("../images/WM_About-US_phase2C_05.jpg") no-repeat center center;
 	background-size: cover;
@@ -418,6 +491,11 @@ figure img{
 	padding: 100px;
 }
 
+@media only screen and (max-width : 768px) {
+	.about-fith-content{
+		padding: 10px;
+	}
+}
 .about-fith-area{
 	text-align: center;
 	color: #ffffff;
@@ -426,6 +504,12 @@ figure img{
 .about-sixth-content{
 	background-color: #1d276d;
 	padding: 100px;
+}
+
+@media only screen and (max-width : 768px) {
+	.about-sixth-content{
+		padding: 10px;
+	}
 }
 
 .about-sixth-area{
