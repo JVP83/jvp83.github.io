@@ -13,9 +13,9 @@ if($('.parallax').length){
 
 		$('.pax-3').parallax({imageSrc: 'images/wm_about-us_phase2c_05.jpg'});
 
-		$('.pax-4').parallax({imageSrc: 'images/white_family.jpg'});
+		$('.pax-4').parallax({imageSrc: 'images/sam_pic2.jpg'});
 
-		$('.pax-5').parallax({imageSrc: 'images/wm_about-us_phase2c_05.jpg'});
+		$('.pax-5').parallax({imageSrc: 'images/sam_pic2.jpg'});
 
 }
 

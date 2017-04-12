@@ -241,6 +241,38 @@ body{
 	}
 }
 
+.btn-get-ready2 {
+	margin-top: 30px;
+	background-color: #7e3893;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 12px;
+	font-size: 18px;
+	display: block;
+	margin: 20px auto 0;
+	float: left;
+}
+
+.btn-get-ready2:hover {
+	background-color: #1d276d;
+	color: #ffffff;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.btn-get-ready2 {
+		background-color: #7e3893;
+		color: #ffffff;
+		border-radius: 5px;
+		font-family: Arial;
+		padding: 5px 10px;
+		font-size: 10px;
+		display: block;
+		margin: 10px auto 0;
+	
+	}
+}
 
 .second-content{
 	background-color: #ffffff;
@@ -715,12 +747,12 @@ padding-bottom: 50px;
 	text-align: center;
 }
 
-.team-introsection
-{
+.team-introsection {
 background-color: #6b675f;
 padding-top: 50px;
 padding-bottom: 20px;
 }
+
 .team-introsection h3{
 	font-family: Arial;
 	font-size: 24px;
@@ -731,6 +763,11 @@ padding-bottom: 20px;
 	font-style: bold;
 }
 
+.modal-body p{
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.5;
+}
 
 
 /*<!-- can delete if I want-->*/
